@@ -168,5 +168,5 @@ ARGC = 0
 ARG0 = ""
 x = 0.0
 ## Last datafile plotted: "wavefunction_H_1s.csv"
-p "wavefunction_H_1s.csv" using 1:2 title "Rnl(r)" with l, "wavefunction_H_1s.csv" using 1:4 title "Pnl(r)" with l,  "wavefunction_H_1s.csv" using 1:3 title "ƒÏ(r)" with l
+p "wavefunction_H_1s.csv" using 1:2 title "Rnl(r)" with l, "wavefunction_H_1s.csv" using 1:4 title "Pnl(r)" with l,  "wavefunction_H_1s.csv" using 1:3 title "rho(r)" with l
 #    EOF
