@@ -8,7 +8,7 @@
 %TCIDATA{Version=5.50.0.2952}
 %TCIDATA{CSTFile=jarticle55.cst}
 %TCIDATA{Created=Wednesday, April 08, 2015 13:02:00}
-%TCIDATA{LastRevised=Friday, April 10, 2015 16:17:56}
+%TCIDATA{LastRevised=Saturday, May 02, 2015 13:02:27}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -47,8 +47,18 @@ m\right\vert \right)  /2}\sqrt{\dfrac{2l+1}{4\pi}\dfrac{\left(  l-\left\vert
 m\right\vert \right)  !}{\left(  l+\left\vert m\right\vert \right)  !}}%
 P_{l}^{\left\vert m\right\vert }\left(  \cos\theta\right)  e^{im\phi}$
 
-$\rho\left(  r,\theta,\phi\right)  =\left\vert R_{nl}\left(  r\right)
-Y_{lm}\left(  \theta,\phi\right)  \right\vert ^{2}$
+$\psi\left(  r,\theta,\phi\right)  =R_{nl}\left(  r\right)  Y_{lm}\left(
+\theta,\phi\right)  $
+
+$\rho\left(  r,\theta,\phi\right)  =\left\{
+\begin{tabular}
+[c]{ll}%
+$R_{nl}^{2}\left(  r\right)  \left[  \operatorname{Re}Y_{lm}\left(
+\theta,\phi\right)  \right]  ^{2}$ & $\left(  m\geq0\right)  $\\
+$R_{nl}^{2}\left(  r\right)  \left[  \operatorname{Im}Y_{lm}\left(
+\theta,\phi\right)  \right]  ^{2}$ & $\left(  m<0\right)  $%
+\end{tabular}
+\right.  $
 
 
 \end{document}
